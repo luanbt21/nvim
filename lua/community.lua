@@ -1,12 +1,38 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
--- AstroCommunity: import any community modules here
--- We import this file in `lazy_setup.lua` before the `plugins/` folder.
--- This guarantees that the specs are processed before any user plugins.
-
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.scrolling.satellite-nvim" },
+  { import = "astrocommunity.scrolling.satellite-nvim" },
+  -- { import = "astrocommunity.scrolling.mini-animate" },
+
+  { import = "astrocommunity.recipes.vscode" },
+
+  { import = "astrocommunity.file-explorer.oil-nvim" },
+  { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
+  { import = "astrocommunity.motion.flash-nvim" },
+
+  { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.docker.lazydocker" },
+
+  { import = "astrocommunity.completion.avante-nvim" },
+  { import = "astrocommunity.completion.codeium-vim" },
+  { import = "astrocommunity.completion.cmp-cmdline" },
+
+  { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
+  { import = "astrocommunity.pack.mdx" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.prisma" },
+  { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.lua" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.proto" },
+  { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.docker" },
 }
