@@ -3,9 +3,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.color.transparent-nvim" },
-  { import = "astrocommunity.scrolling.satellite-nvim" },
-  { import = "astrocommunity.scrolling.satellite-nvim" },
-  -- { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.scrolling.mini-animate" },
 
   { import = "astrocommunity.recipes.vscode" },
 
@@ -16,7 +14,6 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.docker.lazydocker" },
 
-  { import = "astrocommunity.completion.avante-nvim" },
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
 

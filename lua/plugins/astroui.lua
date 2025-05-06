@@ -1,6 +1,7 @@
 ---@type LazySpec
 return {
   "AstroNvim/astroui",
+  -- event = "VeryLazy",
   ---@type AstroUIOpts
   opts = {
     colorscheme = "catppuccin-mocha",
